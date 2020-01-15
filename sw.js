@@ -3,6 +3,7 @@
         const cacheName = 'rates';
         const staticAssets = [
             './',
+            './index.html',
             './app.js',
             './styles.css',
             './fallback.json',
