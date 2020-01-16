@@ -8,8 +8,12 @@
     <meta name="theme-color" content="#ffffff">
     <meta name="description" content="Simple currency rates">
     <title>Currency Rates</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+    <link rel="manifest" href="/manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Weather PWA">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png.png">
 </head>
 
@@ -22,15 +26,45 @@
             <div class="pb-3">
                 <label for="sources">Currency</label>
                 <select id="sources" name="sources" class="form-control">
-                    <option value="USD">USD</option>
-                    <option value="IDR">IDR</option>
-                    <option value="EUR">EUR</option>
+                    <option value="USD">USD - US Dolar</option>
+                    <option value="IDR">IDR - Indonesia Rupiah</option>
+                    <option value="EUR">EUR - Euro</option>
+                    <option value="CAD">CAD - Canadian Dolar</option>
+                    <option value="HKD">HKD - Hongkong Dolar</option>
+                    <option value="ISK">ISK - Icelandic Krona</option>
+                    <option value="PHP">PHP - Philippine Peso</option>
+                    <option value="DKK">DKK - Danish Krone</option>
+                    <option value="HUF">HUF - Hungarian Forint</option>
+                    <option value="CZK">CZK - Czech Koruna</option>
+                    <option value="GPB">GBP - Great Britain Pound</option>
+                    <option value="RON">RON - Romanian Leu</option>
+                    <option value="SEK">SEK - Swedish Krona</option>
+                    <option value="INR">INR - Indian Rupee</option>
+                    <option value="BRL">BRL - Brazilian Real</option>
+                    <option value="RUB">RUB - Russian Ruble</option>
+                    <option value="HRK">HRK - Croatian Kuna</option>
+                    <option value="JPY">JPY - Japan Yen</option>
+                    <option value="THB">THB - Thailand Baht</option>
+                    <option value="CHF">CHF - Swiss Franc</option>
+                    <option value="MYR">MYR - Malaysian Ringgit</option>
+                    <option value="BGN">BGN - Bulgarian Lev</option>
+                    <option value="TRY">TRY - Turkish Lira</option>
+                    <option value="CNY">CNY - Chinese Yuan Renminbi</option>
+                    <option value="NOK">NOK - Norwegian Krone</option>
+                    <option value="NZD">NZD - New Zealand Dolar</option>
+                    <option value="ZAR">ZAR - South African Rand</option>
+                    <option value="MXN">MXN - Mexican Peso</option>
+                    <option value="SGD">SGD - Singaporean Dolar</option>
+                    <option value="AUD">AUD - Australian Dolar</option>
+                    <option value="ILS">ILS - Israeli New Shekel</option>
+                    <option value="KRW">KRW - South Korean Won</option>
+                    <option value="PLN">PLW - Poland Zloty</option>
                 </select>
             </div>
         </header>
         <main></main>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
     <script src="app.js"></script>
 </body>
 

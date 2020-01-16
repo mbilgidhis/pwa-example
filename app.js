@@ -3,6 +3,8 @@
     const sourceSelector = document.querySelector('#sources');
     const result = document.querySelector('main');
     const baseURL = 'https://api.exchangeratesapi.io';
+    
+    const choices = new Choices(sourceSelector);
 
     if( 'serviceWorker' in navigator ) {
         window.addEventListener('load', () =>

@@ -12,7 +12,9 @@
             './images/android-chrome-512x512.png',
             './images/apple-touch-icon.png',
             './images/favicon-16x16.png',
-            './images/favicon-32x32.png'
+            './images/favicon-32x32.png',
+            'https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css',
+            'https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js'
         ];
 
         self.addEventListener('install', async function () {
