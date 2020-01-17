@@ -14,7 +14,8 @@
             './images/favicon-16x16.png',
             './images/favicon-32x32.png',
             'https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css',
-            'https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js'
+            'https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js',
+            'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'
         ];
 
         self.addEventListener('install', async function () {
